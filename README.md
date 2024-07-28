@@ -24,7 +24,7 @@ A reusable custom submit form in React that allows adding dynamic input fields a
 * Basic knowledge of HTML
 
 ## Props
-### 1. fields: An array of objects representing the input fields. Each object should have the following properties:
+#### 1. fields: An array of objects representing the input fields. Each object should have the following properties:
 
   * id: A unique identifier for the input field.
   * label: The label for the input field.
@@ -33,7 +33,7 @@ A reusable custom submit form in React that allows adding dynamic input fields a
   * ref: A reference to the input field.
   * required: A boolean indicating whether the input field is required (optional).
     
-### 2. buttons: An array of objects representing the buttons. Each object should have the following properties:
+#### 2. buttons: An array of objects representing the buttons. Each object should have the following properties:
 
   * type: The type of the button (e.g., "submit", "button").
   * onClick: The function to call when the button is clicked.
