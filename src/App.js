@@ -40,11 +40,13 @@ function App() {
           handler: handlelogin,
           buttonText: "Login",
           isInput: false,
+          buttonType: "login",
         }}
         registerButton={{
           handler: handleRegister,
           buttonText: "Register",
           isInput: false,
+          buttonType: "register",
         }}
       />
     </div>
@@ -52,3 +54,4 @@ function App() {
 }
 
 export default App;
+
